@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20x;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(0, 0%, 15%);
+}
+
+.accordion {
+    width: 500px;
+}
+
+.item {
+    background: hsl(223, 62%, 45%);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.item:hover {
+    background: hsl(223, 62%, 50%);
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: #ffffff;
+    height: auto;
+}
